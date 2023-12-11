@@ -9,5 +9,5 @@ conversion_args:
         - key: Anniversary
           value: Recurring
     default_value: ""
-column: bill_bill_type
+column: bill/BillType
 focus_column: ChargeFrequency

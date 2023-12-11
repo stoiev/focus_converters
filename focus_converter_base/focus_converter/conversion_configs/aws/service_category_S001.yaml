@@ -1,5 +1,5 @@
 plan_name: Generate ServiceCategory for aws data using a map.
-column: line_item_product_code
+column: lineItem/ProductCode
 conversion_type: lookup
 focus_column: ServiceCategory
 conversion_args:

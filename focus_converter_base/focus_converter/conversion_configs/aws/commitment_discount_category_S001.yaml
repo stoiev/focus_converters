@@ -3,8 +3,8 @@ plan_name: convert ReservationARN/SavingsPlanArn to CommitmentDiscountCategory
 conversion_type: sql_condition
 conversion_args:
     conditions:
-        - WHEN savings_plan_savings_plan_arn is not null THEN 'Spend'
-        - WHEN reservation_reservation_arn is not null THEN 'Usage'
+        - WHEN "savingsPlan/SavingsPlanArn" is not null THEN 'Spend'
+        - WHEN "reservation/ReservationARN" is not null THEN 'Usage'
     default_value: "null"
 column: NA
 focus_column: CommitmentDiscountCategory
